@@ -4,11 +4,23 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <style>
+    body {
+      text-align: center;
+      font-size: 24px;
+      margin-top: 200px;
+    }
+  </style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	
     <script type="text/javascript" src="./script.js">
+	 document.addEventListener("DOMContentLoaded", function() {
+      var body = document.querySelector("body");
+      body.textContent = "DOM load success";
+    });
 </script>
 
 </body>
